@@ -1,12 +1,15 @@
 package org.sadtech.example.jwt.server.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.sadtech.example.jwt.server.service.AuthService;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import org.sadtech.example.jwt.server.domain.JwtAuthentication;
+import org.sadtech.example.jwt.server.service.AuthService;
 
 @RestController
 @RequestMapping("api")
