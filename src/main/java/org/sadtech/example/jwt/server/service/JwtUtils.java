@@ -2,12 +2,12 @@ package org.sadtech.example.jwt.server.service;
 
 import io.jsonwebtoken.Claims;
 
-import org.sadtech.example.jwt.server.domain.JwtAuthentication;
-import org.sadtech.example.jwt.server.domain.Role;
-
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
+
+import org.sadtech.example.jwt.server.domain.JwtAuthentication;
+import org.sadtech.example.jwt.server.domain.Role;
 
 public class JwtUtils {
     public static JwtAuthentication generate(Claims claims) {

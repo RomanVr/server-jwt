@@ -2,13 +2,13 @@ package org.sadtech.example.jwt.server.controller;
 
 import lombok.RequiredArgsConstructor;
 
-import org.sadtech.example.jwt.server.domain.RefreshJwtRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import org.sadtech.example.jwt.server.domain.RefreshJwtRequest;
 import org.sadtech.example.jwt.server.domain.JwtResponse;
 import org.sadtech.example.jwt.server.domain.JwtRequest;
 import org.sadtech.example.jwt.server.service.AuthService;

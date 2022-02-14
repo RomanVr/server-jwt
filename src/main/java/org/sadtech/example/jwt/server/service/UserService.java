@@ -1,13 +1,15 @@
 package org.sadtech.example.jwt.server.service;
 
 import lombok.NonNull;
-import org.sadtech.example.jwt.server.domain.Role;
-import org.sadtech.example.jwt.server.domain.User;
+
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+
+import org.sadtech.example.jwt.server.domain.Role;
+import org.sadtech.example.jwt.server.domain.User;
 
 @Service
 public class UserService {
